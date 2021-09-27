@@ -7,7 +7,7 @@ function TopBar() {
     <div className="top-bar-container">
       <div className="container py-2 justify-between">
         <div className="help-faq-div">
-          <a href="#" className="bold-underlined">Help &amp; FAQs</a>
+          <a href="#" className="bold-underlined">Hello &amp; FAQs</a>
         </div>
         <div className="download-app">
           <p className="font-xs d-inline">Download our application. </p>
