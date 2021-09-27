@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+
+a, button, input{
+  transition: .4s all ease;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+
+:root {
+  /* Font Family */
+  --font-primary: Roboto;
+  --font-sec: Raleway;
+
+  /* Font size  */
+  --font-2xs: 0.625rem 10px;
+  --font-xs: 0.75rem 12px;
+  --font-sm: 0.875rem 14px;
+  --font-base: 1rem 16px;
+  --font-lg: 1.125rem 18px;
+  --font-xl: 1.5rem 24px;
+
+  /* Heading Font Size Mobile */
+  --h1-xs-size: 1.5rem;
+  --h2-xs-size: 1.5rem;
+  --h3-xs-size: --font-lg;
+  --h4-xs-size: --font-lg;
+  --h5-xs-size: --font-base;
+  --h6-xs-size: --font-base;
+
+  /* Heading Font Size Desktop */
+  --h1-sm-size: 2.625rem;
+  --h2-sm-size: 2.25rem;
+  --h3-sm-size: 1.625rem;
+  --h4-sm-size: 1.25rem;
+  --h5-sm-size: --font-base;
+  --h6-sm-size: --font-sm;
+
+  /* colors  */
+  --color-orange: #f15a24;
+  --c-orange-sec: #f79c7c;
+  --color-slate: #404040;
+  --c-slate-sec: #8c8c8c;
+  --color-green: #5ece7b;
+  --c-green-sec: #9ee2b0;
+  --color-dark: #1d1f22;
+  --c-dark-sec: #43464e;
+  --color-gray: #72757e;
+  --c-gray-sec: #8d8f9a;
+  --c-gray-accent: #e0e0e1;
+  --color-light: #f1f2f3;
+  --c-light-sec: #ffffff;
+  --color-red: #d12727;
+  --c-red-sec: #fcede8;
+  --color-yellow: #ecc713;
+  --c-yellow-sec: #f6e389;
+  --color-blue: #0468db;
+  --c-blue-sec: #e1f4fe;
+}
+
+
+h1{
+  font-size: var(--h1-sm-size);
+}
+
+h2{
+  font-size: var(--h2-sm-size);
+}
+
+h3{
+  font-size: var(--h3-sm-size);
+}
+
+h4{
+  font-size: var(--h4-sm-size);
+}
+h5{
+  font-size: var(--h5-sm-size);
+}
+h6{
+  font-size: var(--h6-sm-size);
+}
+
+.ml_3rem{
+  margin-left: 3rem;
+}
+.ml_2rem{
+  margin-left: 2rem;
+}
+.ml_1rem{
+  margin-left: 1rem;
+}
+.mb_3rem{
+  margin-bottom: 3rem;
+}
+.mb_2rem{
+  margin-bottom: 2rem;
+}
+.mb_1rem{
+  margin-bottom: 1rem;
+}
+
+.spacer-1rem{
+  /* width: 3rem; */
+  height: 3rem;
+}
+
+
+@media only screen and (max-width: 500px){
+  h1{
+    font-size: var(--h1-xs-size);
+  }
+  h2{
+    font-size: var(--h2-xs-size);
+  }
+  h3{
+    font-size: var(--h3-xs-size);
+  }
+  h4{
+    font-size: var(--h4-xs-size);
+  }
+  h5{
+    font-size: var(--h5-xs-size);
+  }
+  .ml_3rem{
+    margin-left: 1rem;
+  }
+  .ml_2rem{
+    margin-left: .5rem;
+  }
+  .ml_1rem{
+    margin-left: .2rem;
+  }
+  .mb_3rem{
+    margin-bottom : 1rem;
+  }
+  .mb_2rem{
+    margin-bottom : .5rem;
+  }
+  .mb_1rem{
+    margin-bottom : .2rem;
+  }
+  .spacer-1rem{
+    height: .5rem;
+  }
+}

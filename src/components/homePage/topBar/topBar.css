@@ -1,0 +1,24 @@
+.top-bar-container{
+    background-color: var(--color-light);
+    font-family: var(--font-sec);
+}
+
+.font-xs{
+    font-size: 12px!important; 
+}
+
+.justify-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold-underlined:hover{
+    color: var(--c-dark-sec);
+}
+.bold-underlined{
+    font-size: var(--font-sm)!important;
+    color: var(--color-dark);
+    font-weight: 500;
+    text-decoration-line: underline;
+}
